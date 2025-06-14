@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 namespace AAG
 {
@@ -37,8 +38,16 @@ namespace AAG
 
         [ContextMenu("Rebuild Layout")]
         public void RebuildLayout()
-        {
-            int childCount = transform.childCount;
+        {    
+            // Filter active children only
+            var activeChildren = new List<Transform>();
+            foreach (Transform child in transform)
+            {
+                if (child.gameObject.activeSelf)
+                    activeChildren.Add(child);
+            }
+            
+            int childCount = activeChildren.Count;
             if (childCount == 0) return;
 
             Vector3 axis = layoutAxis switch
@@ -60,9 +69,7 @@ namespace AAG
 
             for (int i = 0; i < childCount; i++)
             {
-                Transform child = transform.GetChild(i);
-                Vector3 position = startOffset + axis * spacing * i;
-                child.localPosition = position;
+                activeChildren[i].localPosition = startOffset + axis * spacing * i;
             }
         }
 
