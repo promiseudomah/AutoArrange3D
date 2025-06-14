@@ -1,6 +1,6 @@
 # Auto Arrange 3D
 
-**Auto Arrange 3D** is a lightweight Unity tool by **GoodTimesHub** that automatically arranges GameObjects in 3D space, similar to how Unity’s UI Layout Groups work — but for world objects.
+**Auto Arrange 3D** is a lightweight Unity tool that automatically arranges GameObjects in 3D space, similar to how Unity’s UI Layout Groups work but for world objects.
 
 ---
 
