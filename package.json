@@ -1,6 +1,6 @@
 {
   "name": "com.goodtimeshub.autoarrange3d",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "Auto Arrange 3D",
   "description": "A Unity toolkit for auto-arranging GameObjects in 3D space, similar to UI layout groups. Supports horizontal, vertical, and depth layouts with spacing, padding, and alignment controls.",
   "unity": "2020.3",
