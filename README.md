@@ -41,13 +41,6 @@
 
 ---
 
-## 🧠 Author
-
-**Enwongo-Abasi Udomah**  
-*GoodTimes Hub*
-
----
-
 ## 🔖 License
 
 MIT License. Free for personal and commercial use. Attribution appreciated but not required.
