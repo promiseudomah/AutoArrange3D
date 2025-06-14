@@ -38,4 +38,34 @@ Coming soon...
 ---
 
 ## 📂 Folder Structure
+AutoArrange3D/
+├── Runtime/
+│ └── AutoArrange3D.cs
+├── Editor/
+│ └── AutoArrange3DEditor.cs
+├── Resources/
+│ └── icon.png (for Unity inspector)
+├── package.json
+└── README.md
+
+---
+
+## 📸 Example
+
+![Auto Arrange Preview](Documentation~/preview.gif)
+
+---
+
+## 🧠 Author
+
+**Enwongo-Abasi Udomah**  
+[GoodTimesHub](https://goodtimeshub.com)  
+support@goodtimeshub.com
+
+---
+
+## 🔖 License
+
+MIT License. Free for personal and commercial use. Attribution appreciated but not required.
+
 
