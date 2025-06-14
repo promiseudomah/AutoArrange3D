@@ -35,19 +35,6 @@
 
 ---
 
-## 📂 Folder Structure
-AutoArrange3D/
-├── Runtime/
-│ └── AutoArrange3D.cs
-├── Editor/
-│ └── AutoArrange3DEditor.cs
-├── Resources/
-│ └── icon.png (for Unity inspector)
-├── package.json
-└── README.md
-
----
-
 ## 📸 Example
 
 ![Auto Arrange Preview](Documentation~/preview.png)
