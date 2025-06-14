@@ -17,13 +17,11 @@
 ## 📦 Installation
 
 ### Option 1: Unity Package Manager (via Git URL)
-Coming soon...
 
-### Option 2: Local Package
-1. Clone or download this repository.
-2. Open your Unity project.
-3. Go to `Window > Package Manager > + > Add package from disk...`
-4. Select the `package.json` file.
+1. Open Unity.
+2. Go to `Window > Package Manager`.
+3. Click the `+` button and choose **Add package from Git URL...**
+4. Paste this URL: https://github.com/promiseudomah/AutoArrange3D.git
 
 ---
 
@@ -52,15 +50,14 @@ AutoArrange3D/
 
 ## 📸 Example
 
-![Auto Arrange Preview](Documentation~/preview.gif)
+![Auto Arrange Preview](Documentation~/preview.png)
 
 ---
 
 ## 🧠 Author
 
 **Enwongo-Abasi Udomah**  
-[GoodTimesHub](https://goodtimeshub.com)  
-support@goodtimeshub.com
+*GoodTimes Hub*
 
 ---
 
